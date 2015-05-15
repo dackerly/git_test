@@ -2,3 +2,4 @@
 
 # now a new line
 plot(1:25,pch=1:25)
+y=rnorm(100)
