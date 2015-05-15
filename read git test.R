@@ -8,3 +8,9 @@ library(RCurl)
 x <- getURL('https://raw.githubusercontent.com/dackerly/PPwoody/master/Tree_Master.csv')
 y <- read.csv(text = x)
 head(y)
+
+
+s=getURL('https://raw.githubusercontent.com/dackerly/git_test/master/test.R')
+s
+?source
+source(s,local=T)
