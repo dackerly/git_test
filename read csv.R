@@ -1,0 +1,5 @@
+#install.packages("RCurl")
+library(RCurl)
+x <- getURL('https://raw.githubusercontent.com/ackerlylab/PPWoodyVeg/master/Data/SoilMoisture2013.csv')
+y <- read.csv(text = x)
+head(y)
